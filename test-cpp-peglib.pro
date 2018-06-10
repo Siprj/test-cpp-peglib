@@ -9,3 +9,5 @@ SOURCES += \
 
 INCLUDEPATH += $$PWD/../cpp-peglib
 DEPENDPATH += $$PWD/../cpp-peglib
+
+LIBS += -pthread
