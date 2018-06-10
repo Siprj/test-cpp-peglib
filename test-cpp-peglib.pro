@@ -1,5 +1,5 @@
 TEMPLATE = app
-CONFIG += console c++11
+CONFIG += console c++17
 CONFIG += thread
 CONFIG -= app_bundle
 CONFIG -= qt
@@ -11,3 +11,4 @@ INCLUDEPATH += $$PWD/../cpp-peglib
 DEPENDPATH += $$PWD/../cpp-peglib
 
 LIBS += -pthread
+QMAKE_CXXFLAGS += -std=c++14
